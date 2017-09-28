@@ -1,0 +1,51 @@
+
+*
+{
+	-webkit-tap-highlight-color:rgba(0,0,0,0); 
+}
+html
+{
+	width:100%;
+	height:100%;
+}
+body
+{
+	font-family: 'Microsoft YaHei',arial,helvetica,sans-serif;
+	color:#333;
+	font-size:0.26rem;
+	padding:0;
+	margin:0 auto;
+	min-height:100%;
+	line-height: 1;
+	background-color: #f5f5f5;
+}
+div,p,section,header,footer,span,img,ul,ol,li,h1,h2,h3,h4,h5,h6,textarea,select,input
+{
+	padding:0;
+	margin:0;
+	line-height: 1;
+	font-size:0.26rem;
+	font-weight:normal;
+}
+li
+{
+	list-style:none;
+}
+input,textarea,button
+{
+	outline:none;
+	border:1px solid #ddd;
+	font-size:0.26rem;
+}
+textarea,select,input
+{
+	-webkit-appearance: none; 
+	-moz-appearance: none; 
+	-o-appearance: none; 
+	appearance: none;
+}
+a
+{
+	text-decoration:none;
+	color:inherit;
+}

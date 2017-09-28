@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0 ,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <title>直播聊天室Demo</title>
+    <script type="text/javascript" src="./static/sdk/webim.js"></script>
+    <script type="text/javascript" src="./static/sdk/json2.js"></script>
+    <link rel="stylesheet" type="text/css" href="./static/initial.css" />
+    <script>
+        function setRootSize(){
+            var docWid = window.document.documentElement,
+                width = docWid.getBoundingClientRect().width,
+                fontSize = (width >= 450) ? (450 / 7.5) : width / 750 * 100;
+                docWid.style.fontSize = fontSize + 'px';
+        }
+        window.addEventListener('resize', function() {
+            setRootSize();
+        }, false);
+        setRootSize();
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
